@@ -1,0 +1,49 @@
+body {
+  font-family: "Futura";
+  src: local("Futura"),
+    url("https://cdn.jsdelivr.net/npm/futura-font@1.0.0/styles.min.css")
+      format("tff");
+}
+
+#btnset {
+  text-align: end;
+}
+
+#headingclr {
+  background-color: #d9edf7;
+}
+
+#btn1 {
+  background-color: #000000;
+  color: white;
+}
+
+#btn2 {
+  background-color: #000000;
+  color: white;
+}
+
+.attributes {
+  font-size: small;
+  letter-spacing: 2px;
+}
+
+.btn-dark {
+  border: 1px solid black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .col-md-border:not(:last-child) {
+    border-right: 1px solid #d7d7d7;
+  }
+  .col-md-border + .col-md-border {
+    border-left: 1px solid #d7d7d7;
+    margin-left: -1px;
+  }
+}
